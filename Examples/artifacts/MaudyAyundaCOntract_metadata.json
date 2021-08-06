@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myGF",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mygf",
+						"type": "string"
+					}
+				],
+				"name": "setMyGF",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Examples/mygirlfriend.sol": "MaudyAyundaContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Examples/mygirlfriend.sol": {
+			"keccak256": "0x456b13812e21c5c3dd3ba9c484b335532bd934b8360ee5eca5ac73bae9d38202",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b20618c19b34a2f034a1ac9c4719ca2499f5996b0e11eda146f179c8050c7524",
+				"dweb:/ipfs/QmPBQ5njhDGeBZK7U6BVHoJZAj9McsccQtt8SNxrnxHHm7"
+			]
+		}
+	},
+	"version": 1
+}
