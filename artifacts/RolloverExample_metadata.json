@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"integer-flaw-0.7.0.sol": "RolloverExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"integer-flaw-0.7.0.sol": {
+			"keccak256": "0x9cd716245edd348e5227d93e8ef0a2e3722964498051097af774202f6902ce97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92db2595dc17e3db9d9fc8e27099c9c4a93bbab402eabaeebcf6620b2d45d9f5",
+				"dweb:/ipfs/QmTcY5SFCcCGR6WsFiW4gPnaqwujepU5Wm7zHQ9Ri4WWz4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myTest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"integer-max-min.sol": "LearnSolidity"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"integer-max-min.sol": {
+			"keccak256": "0xb7b678689e49e32dc0996a20b2b25dc1e6e51f2762d5ef6dbc4c7e571cf80272",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5b4d9291f0ed7399fea4773c4f083d7e97310821dd0f3bc8f946556919e882f",
+				"dweb:/ipfs/QmeHH7jqRiCiNfgN3pDMbjrWR8zikBsNeNjKWyj9VSAqJR"
+			]
+		}
+	},
+	"version": 1
+}
