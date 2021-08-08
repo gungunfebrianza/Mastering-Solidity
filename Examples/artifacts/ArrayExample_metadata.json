@@ -7,7 +7,26 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myGF",
+				"name": "getArrayLen",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "languages",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -16,19 +35,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_mygf",
-						"type": "string"
-					}
-				],
-				"name": "setMyGF",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Examples/local-variable.sol": "MaudyAyundaContract"
+			"Examples/array,sol.sol": "ArrayExample"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -59,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Examples/local-variable.sol": {
-			"keccak256": "0x456b13812e21c5c3dd3ba9c484b335532bd934b8360ee5eca5ac73bae9d38202",
+		"Examples/array,sol.sol": {
+			"keccak256": "0xf8c4a5b3db78efd97e4b9925d47ac667fe28c06038f0e4017c4ecdd6a00361e5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b20618c19b34a2f034a1ac9c4719ca2499f5996b0e11eda146f179c8050c7524",
-				"dweb:/ipfs/QmPBQ5njhDGeBZK7U6BVHoJZAj9McsccQtt8SNxrnxHHm7"
+				"bzz-raw://17dede20021f15cd4e51137f40b88c947a87e5d22d95e2322b494e790fd7675c",
+				"dweb:/ipfs/Qma9UDEzhPzik5AYmE5YPyzbECYqKMeGqo7W8h8cq1UdMb"
 			]
 		}
 	},

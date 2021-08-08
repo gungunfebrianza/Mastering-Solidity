@@ -25,9 +25,35 @@
 			},
 			{
 				"inputs": [],
+				"name": "paused",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "sendMoney",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_paused",
+						"type": "bool"
+					}
+				],
+				"name": "setPaused",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -57,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Examples/ownership.sol": "StartStopUpdateExample"
+			"Examples/pause.sol": "StartStopUpdateExample"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -71,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Examples/ownership.sol": {
-			"keccak256": "0xc93184a4d6eb50148e412dfe64286327ca815f429c9f31c81a5941820d2b1481",
+		"Examples/pause.sol": {
+			"keccak256": "0x18d04c54712718bfeeadd332183df363aa5bf0f64ae770a379224c1de8474472",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://de428e6642cdcac65817c7db807cca7ab790ee7864e3736e5acd7a7c23f4456d",
-				"dweb:/ipfs/QmQCyuYhpjLNGFRYrhuNfsmYLPZ814YgDkZBnbt6DMGSkj"
+				"bzz-raw://1eea2da13fd32b42a0daf2f6994d6016d6d78c5d28922ae6e50eb05b3f3321dc",
+				"dweb:/ipfs/QmbFsf1vGPxdm1YJtKiF75meZdToKgMoeebvNeuHNgYH68"
 			]
 		}
 	},

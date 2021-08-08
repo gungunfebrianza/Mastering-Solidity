@@ -7,12 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getVar",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myGF",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStateVariable",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Examples/local-variable.sol": "MaudyAyundaContract"
+			"Examples/local-variable.sol": "LocalVariableExample"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -60,11 +86,11 @@
 	},
 	"sources": {
 		"Examples/local-variable.sol": {
-			"keccak256": "0x456b13812e21c5c3dd3ba9c484b335532bd934b8360ee5eca5ac73bae9d38202",
+			"keccak256": "0xc1caa6e377332047e4e8bda74773bf49d9a62d551c3ef3022252f1adb2bcf229",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b20618c19b34a2f034a1ac9c4719ca2499f5996b0e11eda146f179c8050c7524",
-				"dweb:/ipfs/QmPBQ5njhDGeBZK7U6BVHoJZAj9McsccQtt8SNxrnxHHm7"
+				"bzz-raw://4e7861daee2ba2dd959bb692c27e02ca4fff1165973baddc1226cf83e0365d3a",
+				"dweb:/ipfs/QmWL57Tnp4SdZ5F7ZVGxsZjkBkdiZd5627rWuEavpxmpai"
 			]
 		}
 	},

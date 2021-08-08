@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Examples/local-variable.sol": "MaudyAyundaContract"
+			"Examples/local-variable.sol": "LocalVariableExa"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Examples/local-variable.sol": {
-			"keccak256": "0x456b13812e21c5c3dd3ba9c484b335532bd934b8360ee5eca5ac73bae9d38202",
+			"keccak256": "0x384b9d1dc153d526bca03792c7da252cac57159bb576e073e60b2ca033b88135",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b20618c19b34a2f034a1ac9c4719ca2499f5996b0e11eda146f179c8050c7524",
-				"dweb:/ipfs/QmPBQ5njhDGeBZK7U6BVHoJZAj9McsccQtt8SNxrnxHHm7"
+				"bzz-raw://d676972308e6d32a494ebd61e9edc4f2d5909c864cae740ff7c3cfff6040998f",
+				"dweb:/ipfs/QmXSAp7cVQHheXePhmyya59xCarC6NTkMxY8pNEfUMSLvx"
 			]
 		}
 	},
